@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Luca Pizzoferrato', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
+  description: 'Welcome to my website!', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -72,7 +72,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'Budget-Tracker.jpg',
     title: 'Budget Tracker',
-    info: 'This program is a simple and intuitive budget tracker. Simply input your transactions such as deposits, withdrawls, and payments. It will store them and provide a dashboard of your activity.', 
+    info:
+      'This program is a simple and intuitive budget tracker. Simply input your transactions such as deposits, withdrawls, and payments. It will store them and provide a dashboard of your activity.',
     info2: '',
     url: 'https://budget-tracker-lp.herokuapp.com/',
     repo: 'https://github.com/lucpizz/Budget-Tracker', // if no repo, the button will not show up
@@ -81,7 +82,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'Fitness-Tracker.jpg',
     title: 'Fitness Buddy',
-    info: 'This program is a simple and intuitive fitness tracker. You add your workouts, it stores them, and gives you a dashboard view of your stats.',
+    info:
+      'This program is a simple and intuitive fitness tracker. You add your workouts, it stores them, and gives you a dashboard view of your stats.',
     info2: '',
     url: 'https://fitness-buddy-lp.herokuapp.com/',
     repo: 'https://github.com/lucpizz/fitness-buddy', // if no repo, the button will not show up

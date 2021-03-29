@@ -2,26 +2,29 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Luca Pizzoferrato', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hi, my name is ',
+  name: 'Luca Pizzoferrato',
+  subtitle: 'I am a Full-Stack Developer Student',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'Barkhamsted.jpeg',
+  paragraphOne:
+    'My name is Luca Pizzoferrato, and I have lived my entire life in Connecticut. I am a Digital Technology Leader with many years of experience in infrastructure services, including Digital Workplace and Mobility for large and small organizations. Cross functionally focused and able to build strong relationships for effective communications, designs, and implementation. I am a results-driven leader with managerial experience in both the Corporate and Academic industries.',
+  paragraphTwo:
+    'I have a passion for continuous learning and I am currently learning object-oriented programming (Java) and web development technologies, Full-Stack Developer.',
+  paragraphThree:
+    'In my spare time, I love to travel, cycle, golf, and have taken up photography. The photo in about me section of this webpage was taken in Barkhamsted, Connecticut.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -48,46 +51,47 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Emp-Directory.jpg',
+    title: 'Employee Directory',
+    info:
+      'This program gives a manager a simple, intuitive view and access to non-sensitive employee data',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://lucpizz.github.io/employee-org-chart/',
+    repo: 'https://github.com/lucpizz/employee-org-chart', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'GeneratePassword.jpg',
+    title: 'Password Generator',
+    info: 'This program can help you generate a password for your desired length and complexity.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://lucpizz.github.io/Password-Generator/',
+    repo: 'https://github.com/lucpizz/Password-Generator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Budget-Tracker.jpg',
+    title: 'Budget Tracker',
+    info: 'This program is a simple and intuitive budget tracker. Simply input your transactions such as deposits, withdrawls, and payments. It will store them and provide a dashboard of your activity.', 
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://budget-tracker-lp.herokuapp.com/',
+    repo: 'https://github.com/lucpizz/Budget-Tracker', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Fitness-Tracker.jpg',
+    title: 'Fitness Buddy',
+    info: 'This program is a simple and intuitive fitness tracker. You add your workouts, it stores them, and gives you a dashboard view of your stats.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://fitness-buddy-lp.herokuapp.com/',
+    repo: 'https://github.com/lucpizz/fitness-buddy', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
+  btn: 'Contact Me',
   email: 'lucpizz@gmail.com',
 };
 

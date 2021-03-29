@@ -26,7 +26,7 @@ module.exports = {
         short_name: `Portolio-Me`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#6666ff`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },

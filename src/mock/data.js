@@ -92,7 +92,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Contact Me',
+  cta: '',
   btn: 'Contact Me',
   email: 'lucpizz@gmail.com',
 };

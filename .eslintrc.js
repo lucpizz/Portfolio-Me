@@ -1,5 +1,5 @@
-//updated
 module.exports = {
+  pathPrefix: 'portfolio-me',
   extends: ['airbnb', 'prettier'],
   plugins: ['prettier'],
   env: {

@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio-me",
+  "name": "portfolio-me",
   "private": true,
   "description": "Portfolio website",
   "version": "0.1.0",
@@ -13,7 +13,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages"
+    "deploy": "gatsby build --prefix-paths --verbose && gh-pages -d public -b gh-pages"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",

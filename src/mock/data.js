@@ -28,6 +28,35 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'QRM.png',
+    title: 'Qaurantine Recipe Generator',
+    info:
+      'A person comes home and does not know what to cook, they can use this application to input 1 or 2 ingredients they have in their kitchen to search for recipes.',
+    info2: '',
+    url: 'https://lucpizz.github.io/Quarantine-Recipe-Machine/index.html',
+    repo: 'https://github.com/lucpizz/Quarantine-Recipe-Machine', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'rate-it.png',
+    title: 'Rate-It',
+    info:
+      'This program is a simple and intuitive rate it application. Enter any movie, restaurant, or product and give it a rating from 1 (bad) to 5 (great).',
+    info2: '',
+    url: 'https://rate-it-now.herokuapp.com',
+    repo: 'https://github.com/lucpizz/rate-it', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: '',
+    info: '',
+    info2: '',
+    url: '',
+    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'project.jpg',
     title: '',
     info: '',
@@ -59,7 +88,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'lucpizz@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +96,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/luca-pizzoferrato/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/lucpizz',
     },
   ],
 };

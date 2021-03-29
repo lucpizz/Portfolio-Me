@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Portfolio-Me`,
-        short_name: `Portolio-Me`,
+        short_name: `Portolio`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6666ff`,

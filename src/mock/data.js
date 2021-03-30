@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'My name is Luca Pizzoferrato, and I have lived my entire life in Connecticut. I am a Digital Technology Leader with many years of experience in infrastructure services, including Digital Workplace and Mobility for large and small organizations. Cross functionally focused and able to build strong relationships for effective communications, designs, and implementation. I am a results-driven leader with managerial experience in both the Corporate and Academic industries.',
   paragraphTwo:
-    'I have a passion for continuous learning and I am currently learning object-oriented programming (Java) and web development technologies, Full-Stack Developer.',
+    'I have a passion for continuous learning and I am currently studying object-oriented programming (Java) and web development technologies, Full-Stack Developer.',
   paragraphThree:
     'In my spare time, I love to travel, cycle, golf, and have taken up photography. The photo in about me section of this webpage was taken in Barkhamsted, Connecticut.',
   resume: '', // if no resume, the button will not show up
